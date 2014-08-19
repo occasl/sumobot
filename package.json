@@ -1,0 +1,29 @@
+{
+    "name": "sumobot",
+    "version": "0.0.1",
+    "description": "Sumobot JR Node app",
+    "keywords": [
+        "Node.js",
+        "application"
+    ],
+    "author": {
+        "name": "Lou Sacco",
+        "email": "occasl@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/occasl/sumobot"
+    },
+    "engines": {
+        "node": ">= 0.10.1",
+        "npm": ">= 1.1.59"
+    },
+    "dependencies": {
+        "johnny-five": "0.8.8",
+        "spark-io": "0.5.1",
+        "keypress": "0.2.1"
+    },
+    "bundleDependencies": [],
+    "private": true,
+    "main": "server.js"
+}
