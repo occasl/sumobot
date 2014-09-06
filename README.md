@@ -1,7 +1,7 @@
 sumobot
 =======
 
-Example programs to program and operate a [sumobot](http://sumobotkit.com/) using [Johnny Five](https://github.com/rwaldron/johnny-five) and [Cylon.js](c).  Use arrow keys to move sumobot, spacebar to stop and "Q" to quit.
+Example programs to operate a [sumobot](http://sumobotkit.com/) using [Johnny Five](https://github.com/rwaldron/johnny-five) and [Cylon.js](http://cylonjs.com/).  In the keypress-nodebot example, use arrow keys to move sumobot, spacebar to stop and "Q" to quit. Other examples, will just run automatically. Server.js example is a simple example that can be deployed to runQ develop.
 
 Installation
 ============
@@ -41,4 +41,4 @@ $ export SPARK_TOKEN="[obtain from output during spark setup]"
 $ export SPARK_DEVICE_ID="[the name you chose to name your core]"
 ```
 
-To reset your device id to run on other WiFi network you just need to run `spark setup wifi`.
+To reset your device id to run on other WiFi network you just need to run `spark setup wifi`. This is nice so you don't have to generate another device_id.

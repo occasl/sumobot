@@ -22,7 +22,10 @@
         "johnny-five": "0.8.8",
         "spark-io": "0.5.1",
         "keypress": "0.2.1",
-        "cylon-spark": "0.14.0"
+        "cylon-spark": "0.14.0",
+        "restify": "2.6.1",
+        "underscore": "1.5.2",
+        "bunyan": "0.22.1"
     },
     "bundleDependencies": [],
     "private": true,
