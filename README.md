@@ -1,7 +1,7 @@
 sumobot
 =======
 
-Example Node program to run a simple keypress based nodebot.  Use arrow keys to move sumobot, spacebar to stop and "Q" to quit.
+Example programs to program and operate a [sumobot](http://sumobotkit.com/) using [Johnny Five](https://github.com/rwaldron/johnny-five) and [Cylon.js](c).  Use arrow keys to move sumobot, spacebar to stop and "Q" to quit.
 
 Installation
 ============
