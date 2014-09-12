@@ -1,13 +1,12 @@
 var Cylon = require('cylon');
-var keypress = require('keypress');
 
 // Initialize the robot
 Cylon.robot({
     connection: {
         name: 'voodoospark',
         adaptor: 'voodoospark',
-        accessToken: process.env.SPARK_TOKEN || 'c9a2b39fad992ba425540ffb71cc813873b49e0c',
-        deviceId: process.env.SPARK_DEVICE_ID || 'sumo_lou3',
+        accessToken: process.env.SPARK_TOKEN,
+        deviceId: process.env.SPARK_DEVICE_ID,
         module: 'spark'
     },
     device: [

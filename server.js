@@ -7,7 +7,7 @@
 
     // Get the environment variables we need.
     var host = process.env.VCAP_APP_HOST || 'localhost';
-    var port = process.env.VCAP_APP_PORT || 3000;
+    var port = process.env.VCAP_APP_PORT || 3005;
 
     var logger = bunyan.createLogger({
         name: 'Mobile Sumobot',

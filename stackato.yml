@@ -5,7 +5,7 @@ mem: 256
 urls:
     - sumobot.runqnp.qualcomm.com
 env:
-  NPM_REGISTRY: http://npmjs.qualcomm.com:5984/
+#  NPM_REGISTRY: http://npmjs.qualcomm.com:5984/
   SPARK_TOKEN: c9a2b39fad992ba425540ffb71cc813873b49e0c
   SPARK_DEVICE_ID: sumo_lou3
 ignores: [".git", ".idea"]
