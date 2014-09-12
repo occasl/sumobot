@@ -4,7 +4,7 @@ sumobot
 Example programs to operate a [sumobot](http://sumobotkit.com/) using [Johnny Five](https://github.com/rwaldron/johnny-five) and [Cylon.js](http://cylonjs.com/).  There are several example programs in this project:
 
 |Program Name | Description|
---------------------------
+|-------------|------------|
 |cylonjs-demo.js| Simple program that demonstrates the Cylon.js API. Makes robot go in a circle.|
 |johnnyfive-turnaround.js | Simple program that demonstrates the Johnny Five API to make a robot go forward, turnaround and come back.|
 |keypress-nodebot.js | Uses arrow keys to move sumobot forward, backware, left and right; spacebar to stop and "Q" to quit.|
